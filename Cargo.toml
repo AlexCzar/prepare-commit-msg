@@ -1,0 +1,16 @@
+[package]
+name = "prepare-commit-msg"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+git2 = "0.20"
+googletest = "0.14.0"
+regex = "1.11"
+
+[dev-dependencies]
+tempfile = "3"
+
+[[bin]]
+name = "prepare-commit-msg"
+path = "src/main.rs"
